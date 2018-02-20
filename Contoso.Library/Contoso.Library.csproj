@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Will 保哥</Authors>
+    <Company>多奇數位創意有限公司</Company>
+    <Description>這是一個是示範用的函式庫套件</Description>
+    <Copyright>CopyRight (c) 2018 by Will 保哥</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>contoso,library</PackageTags>
+    <PackageReleaseNotes>Release Note</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
